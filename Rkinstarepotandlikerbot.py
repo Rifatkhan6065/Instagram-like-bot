@@ -56,7 +56,7 @@ def slow_type(text):
 def handle_start(message):
     user_id = message.from_user.id
     if user_id == USER_ID:
-        bot.send_message(message.chat.id, "Bot by AW-TEAM Modified by KiNGEX, Nork || JOIN FOR MORE: https://t.me/join_another_world || (If you purchased this script then you are scammed because its free on our channel)")
+        bot.send_message(message.chat.id, "Bot by Rk-on-fire Modified by KiNGEX, Nork || JOIN FOR MORE: https://t.me/rk_on_fire || (If you purchased this script then you are scammed because its free on our channel)")
         
         ab = pyfiglet.figlet_format("AW")
         bot.send_message(message.chat.id, ab)  # Sending plain text without Markdown
